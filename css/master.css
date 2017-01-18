@@ -10,11 +10,11 @@ h1{
 	font-weight: 300;
 }
 
-.fly-in-title{
+.fade-in-title{
 	list-style-type: none;
 }
 
-.fly-in-title li{
+.fade-in-title li{
 	display:inline-block;
 	margin-right: 30px;
 	font-family: 'Ubuntu Condensed', monospace;
@@ -23,11 +23,11 @@ h1{
 	transition: all 5s ease;
 }
 
-.fly-in-title li: last-child{
+.fade-in-title li: last-child{
 	margin-right: 0;
 }
 
-.fly-in-title.hidden li{
+.fade-in-title.hidden li{
 	opacity: 0;
 }
 
