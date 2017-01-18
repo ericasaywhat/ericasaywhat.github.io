@@ -1,0 +1,38 @@
+body{
+	background-color: #000;
+}
+
+h1{
+	color: #fff;
+	font-family:'Ubuntu Condensed', monospace;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 300;
+}
+
+.fly-in-title{
+	list-style-type: none;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	text-transform: translateX(-50%) translateY(-50%);
+}
+
+.fly-in-title li{
+	display:inline-block;
+	margin-right: 50px;
+	font-family: 'Ubuntu Condensed', monospace;
+	color: #fff;
+	opacity: 1;
+	transition: all 5s ease;
+}
+
+.fly-in-title li: last-child{
+	margin-right: 0;
+
+}
+
+.fly-in-title.hidden li{
+	opacity: 0;
+}
+

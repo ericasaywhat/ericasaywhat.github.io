@@ -48,10 +48,12 @@ h1.name {
 #connect {
 	margin-right:20px;
 	float:left;
+	height:50px;
+	width:50px;
 }
 
 /*Connect Icons*/
-.icon {
+#icon {
 	width:90px;
 	height:90px;
 	z-index:1;
