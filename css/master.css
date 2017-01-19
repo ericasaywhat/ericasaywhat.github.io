@@ -46,3 +46,26 @@ h1{
 	transition: all 5s ease;
 }
 
+
+.contact.hidden2 {
+	opacity: 0;
+
+}
+
+.contact img{
+	margin-right: 100px;
+}
+.contact {
+	opacity: 1;
+	margin-top: 100px;
+	margin-right: 20%;
+	margin-left: 20%;
+	font-family: 'Ubuntu Condensed', monospace;
+	font-weight: 100;
+	font-size: 22.5px;
+	transition: all 5s ease;
+	filter: invert(1);
+}
+
+
+
