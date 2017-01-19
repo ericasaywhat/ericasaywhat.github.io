@@ -22,19 +22,29 @@
       </ul>
     </h>
 
-    <div class = "content hidden">
-      
-      
+    <div class = "content hidden1">
+      <p>I am a software developer seeking opportunities to contribute to a dynamic team while expanding my skill set. 
+      Currently, I am exploring Android mobile apps, databases as well as user to app interactions. </p>
     </div>
 
     <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript">
 
       $(function() {
-        setTimeout(function() {
+        var ani = setTimeout(function() {
           $('.fade-in-title').removeClass('hidden');
         }, 500)
+
+
+        ani = setTimeout(function() {
+          $('.content').removeClass('hidden1');
+        }, 1500)
+
       }) ();
+
+
+
+
 
     </script>
 
