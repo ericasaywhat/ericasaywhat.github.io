@@ -56,20 +56,21 @@ h1{
 	margin-right: 100px;
 }
 
-.contact:hover img{
-	filter: none;
+.contact img:hover{
+	filter: opacity(.2);
 }
 
 .contact {
 	opacity: 1;
 	margin-top: 100px;
 	margin-right: 20%;
-	margin-left: 20%;
+	margin-left: 25%;
 	font-family: 'Ubuntu Condensed', monospace;
 	font-weight: 100;
 	font-size: 22.5px;
 	transition: all 5s ease;
 	filter: invert(1);
+
 
 }
 
