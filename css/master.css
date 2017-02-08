@@ -1,5 +1,7 @@
 body{
 	background-color: #000;
+	font-family: 'Ubuntu Condensed', monospace;
+
 }
 
 h1{
@@ -31,12 +33,12 @@ h1{
 	opacity: 0;
 }
 
-.content.hidden1 {
+.c1.hidden1 {
 	opacity: 0;
 
 }
 
-.content {
+.c1 {
 	opacity: 1;
 	margin-right: 20%;
 	margin-left: 20%;
@@ -47,20 +49,22 @@ h1{
 }
 
 
-.contact.hidden2 {
+.c2.hidden2 {
 	opacity: 0;
 
 }
 
-.contact img{
+.c2 img{
 	margin-right: 100px;
+	margin-bottom: 20%;
 }
 
-.contact img:hover{
+
+.c2 img:hover{
 	filter: opacity(.2);
 }
 
-.contact {
+.c2 {
 	opacity: 1;
 	margin-top: 100px;
 	margin-right: 20%;
@@ -72,6 +76,33 @@ h1{
 	filter: invert(1);
 
 
+}
+
+.c3.hidden3 {
+	opacity: 0;
+
+}
+
+.c3 {
+	opacity: 1;
+	margin-right: 20%;
+	margin-left: 20%;
+	font-family: 'Ubuntu Condensed', monospace;
+	font-weight: 100;
+	font-size: 22.5px;
+	transition: all 5s ease;
+}
+
+.link {
+	opacity: 1;
+	margin-right: 20%;
+	margin-left: 20%;
+	font-family: 'Ubuntu Condensed', monospace;
+	font-weight: 100;
+}
+
+.link p:hover{
+	filter: opacity(.2);
 }
 
 

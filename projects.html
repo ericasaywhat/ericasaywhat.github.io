@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>    
+    <title>Erica J. Lee</title>
+    <link rel = "stylesheet" href = "css/master.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+  </head>
+  <body>
+    <h1>
+      <ul class = "fade-in-title hidden"> 
+        <li>What I've Been Working On</li>
+      </ul>
+    </h>
+
+     <div class = "c1 hidden1">
+
+      <h4 align="left">Beakon Mobile App </h4>
+
+      <p align="left">Beakon is an app that helps connect people to small scale crowd-sourced social movements, like #NoDAPL or marches and protests in cities. Users can create social movements and add resources to help others get informed about those movements. Each movement should be a specific action item, like uploading a video to Facebook or checking in somewhere on Facebook to demonstrate support. The movement should be specific about what action it is associated with it and have instructions about how to complete it. As a user, you can see updates on the movements you are a part of and get suggestions for movements you might want to join. </p>
+
+      <p><iframe width="560" height="315" src="https://www.youtube.com/embed/KInn_yyNZec" frameborder="0" allowfullscreen></iframe></p>
+
+      <div class = "link">
+        <p href = "https://github.com/ericasaywhat/Beakon"> [See Our Code Here]</p>
+      </div>
+
+    </div>
+
+    <div class = "c3 hidden3">
+
+      <h4 align="left">Automated Marionette</h4>
+
+      <p align="left">We created a mechanically controlled puppet contained within a box stage. We modelled our system after traditional marionette manipulation, which is done by hand using one or two lever systems. We programmed a set of actuators with an Arduino UNO to make these hand motions, which will allow the puppet to stand, walk, dance, and perform.
+      </p>
+
+      <div class = "link">
+        <p href = "http://poe.olin.edu/2016/Marionette/index.html"> [See More here] </p>
+      </div>
+
+   </div>
+
+
+
+ 
+
+
+
+
+
+
+
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript">
+
+      $(function() {
+
+        setTimeout(function() {
+          $('.fade-in-title').removeClass('hidden');
+        }, 500)
+
+
+        setTimeout(function() {
+          $('.c1').removeClass('hidden1');
+        }, 1500)
+
+        setTimeout(function() {
+          $('.c2').removeClass('hidden2');
+        }, 2500)
+
+        setTimeout(function() {
+          $('.c3').removeClass('hidden3');
+        }, 3500)
+
+      }) ();
+
+    </script>
+  </body>
+</html>
